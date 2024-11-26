@@ -36,6 +36,8 @@
 
 #include <ranges>
 
+#include "pokeball.h"
+
 extern Chat* g_chat;
 extern Game g_game;
 extern GlobalEvents* g_globalEvents;

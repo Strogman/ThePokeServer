@@ -149,7 +149,8 @@ const std::unordered_map<std::string, ItemTypes_t> ItemTypesMap = {{"key", ITEM_
                                                                    {"teleport", ITEM_TYPE_TELEPORT},
                                                                    {"door", ITEM_TYPE_DOOR},
                                                                    {"bed", ITEM_TYPE_BED},
-                                                                   {"rune", ITEM_TYPE_RUNE}};
+                                                                   {"rune", ITEM_TYPE_RUNE},
+																   {"pokeball", ITEM_TYPE_POKEBALL}};
 
 const std::unordered_map<std::string, tileflags_t> TileStatesMap = {
     {"down", TILESTATE_FLOORCHANGE_DOWN},        {"north", TILESTATE_FLOORCHANGE_NORTH},
@@ -610,6 +611,8 @@ void Items::parseItemNode(const pugi::xml_node& itemNode, uint16_t id)
 						it.type = it2->second;
 						if (it.type == ITEM_TYPE_CONTAINER) {
 							it.group = ITEM_GROUP_CONTAINER;
+						}else if(it.type == ITEM_TYPE_POKEBALL) {
+							it.slotPosition |= SLOTP_FEET;
 						}
 					} else {
 						std::cout << "[Warning - Items::parseItemNode] Unknown type: " << valueAttribute.as_string()
