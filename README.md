@@ -1,9 +1,9 @@
-# PokeTibia 1.7 // PokeTfs 1.7
-**PokeTfs 1.7** é uma base para servidores Pokétibia, desenvolvida a partir do [TFS 1.7](https://github.com/TibiaDev/forgottenserver-downgrades), com modificações realizadas pelo Felipe Muniz. Este projeto tem como objetivo modernizar e otimizar os códigos utilizados por servidores open-source de Pokétibia, que muitas vezes ainda dependem de sistemas e implementações desatualizadas, baseadas em versões anteriores do TFS.
+# PokeTibia 1.6 // ThePokeServer
+**ThePokeServer** é uma base para servidores Pokétibia, desenvolvida a partir do [TFS 1.6](https://github.com/TibiaDev/forgottenserver-downgrades), com modificações realizadas pelo Felipe Muniz. Este projeto tem como objetivo modernizar e otimizar os códigos utilizados por servidores open-source de Pokétibia, que muitas vezes ainda dependem de sistemas e implementações desatualizadas, baseadas em versões anteriores do TFS.
 Optamos por construir o projeto com um downgrade de protocolo para garantir compatibilidade com mapas, itens e outros recursos das versões antigas, enquanto mantemos o código atualizado e mais alinhado com as melhores práticas.
 ---
 ## **Objetivo**
-O PokeTfs 1.7 permite a utilização de recursos como itens, sprites, arquivos DAT e mapas de versões anteriores do protocolo, enquanto preserva um código-base atualizado. Embora o sistema utilize um downgrade de protocolo, oferecemos a flexibilidade de atualizar para a versão mais recente do protocolo de maneira eficiente, caso desejado.
+O ThePokeServer permite a utilização de recursos como itens, sprites, arquivos DAT e mapas de versões anteriores do protocolo, enquanto preserva um código-base atualizado. Embora o sistema utilize um downgrade de protocolo, oferecemos a flexibilidade de atualizar para a versão mais recente do protocolo de maneira eficiente, caso desejado.
 ⚠️ **Nota**: A atualização para versões mais recentes do protocolo exigirá uma reconfiguração completa dos sistemas de itens, sprites e mapas devido às diferenças nas estruturas de dados entre os protocolos.
 ---
 ## **Funcionalidades**
